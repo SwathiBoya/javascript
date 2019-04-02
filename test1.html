@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <input type="button" value="Submit" id="btnClick">
+        <input type="text" id="txtOne">
+    </body>
+    <!-- <script src="test.js"></script> -->
+    <script src="class.js"></script>
+    <script>
+        var x = document.getElementById("btnClick");
+        var y = document.getElementById("txtOne");
+        x.addEventListener("click",()=>{
+            console.log(this);
+        })
+        y.addEventListener("change",function(){
+            console.log(this);
+        })
+
+
+
+
+
+//Promises
+
+        // var promise = new Promise(function(resolve, reject){
+        //     if(true){
+        //         resolve("I am Resolved");
+        //     }
+        //     else{
+        //         reject("Its over");
+        //     }
+        // })
+
+        // promise.then(result=>{
+        //     console.log(result);
+
+        // }).catch(err=>{
+        //     console.log(err);
+        // });
+        // console.log("hello");
+
+    
+        
+    </script>
+</html>
